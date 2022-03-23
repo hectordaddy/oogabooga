@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+    position:relative;
+    }
+    p{
+        color: white;
+    }
+    .lada{
+        background-color: gray;
+        width: 200px;
+        height: 200px;
+        position:relative;
+        animation-name: myanimation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        animation-direction: alternate-reverse;
+        margin-left: 1300px;
+    
+    }
+    
+    
+    @keyframes myanimation{
+        0%{background-color: gray; right: 0px; top:0px; }
+    
+    
+        75%{background-color: gray; right: 300px; top:0px;}
+        100%{background-color: gray;right: 0px; top:0px; }
+          }
+    
